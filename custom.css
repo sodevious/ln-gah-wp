@@ -1,0 +1,171 @@
+/* Logo edits */
+.site-header .title-area {
+	background-size: 388px!important;
+}
+
+.header-image .title-area {
+	height: 160px;
+	margin: 0px auto;
+}
+
+/* Custom BG */
+.going-green-pro-forest .site-header,
+.going-green-pro-forest .site-footer, 
+.going-green-pro-forest .footer-widgets, 
+.going-green-pro-forest .site-inner {
+	background: none;
+	box-shadow: none;
+}
+
+body {
+	background-image: url('/wp-content/themes/going-green-pro/images/sky-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.site-container {
+	background-image: url('/wp-content/themes/going-green-pro/images/repeating-grass.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: contain;
+} 
+
+
+/* Right header */
+.ga-header-right {
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+.ga-header-right span {
+	display: block;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.ga-header-right span a {
+	color: #64B948 !important;
+	display: block;
+}
+
+.ga-header-right span img {
+	position: relative;
+	margin-right: 10px;
+	top: 4px;
+}
+
+/* Color changes */
+.going-green-pro-forest .genesis-nav-menu .sub-menu a, 
+.going-green-pro-forest .nav-primary {
+	background-color: #35773C;
+}
+
+.going-green-pro-forest .author-box-title, 
+.going-green-pro-forest .entry-meta a:hover, 
+.going-green-pro-forest .nav-primary .genesis-nav-menu .current-menu-item > a, 
+.going-green-pro-forest .nav-primary .genesis-nav-menu a:hover, 
+.going-green-pro-forest .sidebar a:hover, .going-green-pro-forest a {
+	color: #64B948;
+}
+
+/* Site footer */
+.site-footer .wrap {
+	background-color: rgba(0,0,0,0.35);
+	display: inline-block;
+	border-radius: 4px;
+	padding: 15px;
+	color: white;
+}
+
+/* Full Width YT Video */
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+	margin-bottom: 40px;
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; 
+	height: 100%; 
+	width: 100%; 
+	left: 0; 
+	top: 0; 
+}
+
+/* Homepage conent */
+.home .post-96 .entry-content,
+.home .post-2 .entry-content {
+	padding-top: 40px;
+}
+
+
+/* Custom featured page widget */
+.custom-widget {
+	padding: 0 40px;
+}
+
+.custom-widget .widget-wrap {
+	margin-bottom: 40px;
+}
+
+.custom-widget .widget-wrap .entry-title {
+	margin-bottom: 5px;
+}
+
+.custom-widget .widget-wrap p {
+	font-size: 15px;
+}
+
+/* Sidebar contact form */
+.sidebar-primary .widget ul > li {
+	border-bottom: 0px;
+}
+
+.sidebar-primary .gform_wrapper .top_label input.medium, 
+.sidebar-primary .gform_wrapper .top_label select.medium {
+	width: 100%;
+}
+
+.sidebar-primary .gform_wrapper .gform_footer {
+	padding: 0px;
+}	
+
+.sidebar-primary .gform_wrapper,
+.sidebar-primary .gform_wrapper ul li.gfield, 
+.sidebar-primary .gform_wrapper form li {
+	margin: 0px;
+}
+
+.sidebar-primary .gform_wrapper ul li.field_description_below div.ginput_container_checkbox, 
+.sidebar-primary .gform_wrapper ul li.field_description_below div.ginput_container_radio {
+	margin-top: 4px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+	.ga-header-right {
+		text-align: right;
+		margin-top: 60px;
+	}
+
+	.title-area {
+		height: 160px;
+		margin: 0px auto;
+		width: 386px;
+	}
+
+	.site-header .widget-area {
+		width: 570px;
+	}
+
+	.ga-header-right span a {
+		display: inline;
+	}
+}
